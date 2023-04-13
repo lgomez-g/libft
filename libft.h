@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/13 16:19:26 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/13 19:35:47 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,10 @@ int	ft_isascii(int x);
 int	ft_isalnum(int x);
 int	ft_toupper(int c);
 int	ft_tolower(int c);
+char	*ft_strrchr(const char *str, int c);
+char	*ft_strchr(const char *str, int c);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
 
 
 #endif

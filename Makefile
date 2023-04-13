@@ -6,7 +6,7 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/13 12:34:40 by lgomez-g          #+#    #+#              #
-#    Updated: 2023/04/13 16:19:44 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/13 19:36:18 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,9 +26,15 @@ SRC    = ft_strlen.c \
 		 ft_isalnum.c \
 		 ft_toupper.c \
 		 ft_tolower.c \
+		 ft_strrchr.c \
+		 ft_strchr.c \
+		 ft_putchar_fd \
+		 ft_putstr_fd.c \
 		 
 		 
 		 
+		 
+		  
 OBJ = $(SRC:.c=.o)
 
 BONUS = ft_lstnew.c
