@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/14 16:10:57 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/15 15:39:21 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
 int	ft_atoi(const char *str);
+char	*ft_strdup(const char *s);
+
 
 
 
