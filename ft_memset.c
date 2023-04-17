@@ -1,24 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/16 20:04:55 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/17 13:54:57 by lgomez-g         ###   ########.fr       */
+/*   Created: 2023/04/17 13:57:34 by lgomez-g          #+#    #+#             */
+/*   Updated: 2023/04/17 14:13:38 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_calloc(size_t nitems, size_t size)
+void	*ft_memset(void *str, int c, size_t n)
 {
-	void	*dest;
+	size_t	i;
 
-	dest = malloc(nitems * size);
-	if (!dest)
-		return (0);
-	ft_bzero(dest, nitems * size);
-	return (dest);
+	i = 0;
+	while (i < n)
+	{
+		((unsigned char *)str)[i] = c;
+		i++;
+	}
+	return (str);
 }
