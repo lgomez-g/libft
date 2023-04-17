@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/17 14:31:50 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/17 18:55:48 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,8 @@ void	*ft_memcpy(void *dst, const void *src, size_t n);
 int	ft_memcmp(const void *str1, const void *str2, size_t n);
 void	*ft_calloc(size_t nitems, size_t size);
 void	*ft_memset(void *str, int c, size_t n);
+void	ft_bzero(void *s, size_t n);
+char	*ft_strjoin(char const *str1, char const *str2);
 
 
 

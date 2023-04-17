@@ -6,7 +6,7 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/13 12:34:40 by lgomez-g          #+#    #+#              #
-#    Updated: 2023/04/17 15:06:01 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/17 18:56:04 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -37,6 +37,11 @@ SRC    = ft_strlen.c \
 		 ft_memcmp.c \
 		 ft_calloc.c \
 		 ft_memset.c \
+		 ft_bzero.c \
+		 ft_strjoin.c \
+		 
+		 
+		 
 		 
 		 
 		 
