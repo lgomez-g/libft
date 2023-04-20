@@ -6,7 +6,7 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/13 12:34:40 by lgomez-g          #+#    #+#              #
-#    Updated: 2023/04/19 19:55:37 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/20 11:26:31 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,6 +42,9 @@ SRC    = ft_strlen.c \
 		 ft_strtrim.c \
 		 ft_striteri.c \
 		 ft_strmapi.c \
+		 ft_putendl_fd.c \
+		 ft_itoa.c \
+		 
 		 
 		 
 		 

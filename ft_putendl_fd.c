@@ -1,40 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/17 17:54:05 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 09:38:15 by lgomez-g         ###   ########.fr       */
+/*   Created: 2023/04/20 09:26:40 by lgomez-g          #+#    #+#             */
+/*   Updated: 2023/04/20 10:02:43 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *str1, char const *str2)
+void ft_putendl_fd(char *s, int fd);
 {
-	char	*newstr;
-	int	i;
-
-	i = 0;
-	if (!str1 && !str2)
-		return (NULL);
-	newstr = malloc(sizeof(char) * (ft_strlen(str1) + ft_strlen(str2) +1));
-	if (!newstr)
-		return (NULL);
-	while (*str1)
+	if (s)
 	{
-		newstr[i] = *str1;
-			i++;
-			str1++;
+		ft_putstr_fd(s, fd);
+		ft_putchar_fd('\n', fd);
 	}
-	while (*str2 != '\0')
-	{
-		newstr[i] = *str2;
-		i++;
-		str2++;
-	}
-	newstr[i] = '\0';
-	return (newstr);
 }
