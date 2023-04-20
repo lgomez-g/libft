@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_pustr_fd.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 19:10:44 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/13 19:27:08 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:58:19 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,4 +17,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (*s)
 		ft_putchar_fd(*s++, fd);
 }
-

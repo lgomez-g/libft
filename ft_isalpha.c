@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 13:33:15 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/13 13:45:02 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:55:17 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ int	ft_isalpha(int x)
 {
 	if ((x >= 65 && x <= 90) || (x >= 97 && x <= 122))
 		return (1);
-
 	else
 		return (0);
 }

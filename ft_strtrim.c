@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 14:51:33 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/19 17:24:17 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:59:34 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,12 +53,7 @@ char	*ft_strtrim(char const *str, char const *set)
 		return (NULL);
 	ft_put_in_arr(newstr, str, start, end);
 	return (newstr);
-
 }
-
-
-
-
 /*
 PASO A PASO 
 

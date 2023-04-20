@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 17:54:05 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 09:38:15 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:54:14 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strjoin(char const *str1, char const *str2)
 {
 	char	*newstr;
-	int	i;
+	int		i;
 
 	i = 0;
 	if (!str1 && !str2)

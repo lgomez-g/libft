@@ -3,26 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 10:07:11 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 11:25:41 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:57:39 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char	*str;
-	int	i;
-	int	sign;
+	int		i;
+	int		sign;
 
 	sign = 1;
 	i = 0;
 	if (n < 0)
 		sign = -1;
-	str = (char *)malloc(sizeof(char) * ft_intlen(n) + 1);
+	str = (char *)malloc(sizeof(char) * ft_intlen(n) +1);
 	if (!str)
 		return (0);
 	if (n == 0)
@@ -40,6 +40,7 @@ char *ft_itoa(int n)
 }
 
 /*
+
 1. Se verifica si hay signo positivo o negativo y al ser negativo se guarda el signo
 en la variable sign.
 2. Hacemos malloc para guardar espacio al nuevo string.

@@ -3,10 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2023/04/20 16:06:52 by lgomez-g         ###   ########.fr       */
+=======
+/*   Updated: 2023/04/20 15:59:53 by franciscogomez   ###   ########.fr       */
+>>>>>>> ad0987b005fae26e27df5052da4f96a34c4bfdb5
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,10 +50,5 @@ char *ft_itoa(int n);
 size_t	ft_strlcat(char *dest, char *src, size_t size);
 char	*ft_strrev(char *str);
 int	ft_intlen(int n);
-
-
-
-
-
 
 #endif

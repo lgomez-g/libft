@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 14:18:17 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/14 15:56:59 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:54:03 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
-
 
 /*
 1. HANDLE WHITE SPACES IN THE FIRST WHILE.
