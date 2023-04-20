@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 11:26:14 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:59:53 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,5 @@ void ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void ft_putendl_fd(char *s, int fd);
 char *ft_itoa(int n);
-
-
-
-
-
 
 #endif

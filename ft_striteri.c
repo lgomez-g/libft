@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 15:07:02 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/19 17:20:01 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 15:42:26 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,4 @@ tome los mismos argumentos.
 
 La función ft_striteri itera sobre cada carácter de la cadena s y llama 
 a la función f para aplicarla a cada caracter de *s.
+*/
