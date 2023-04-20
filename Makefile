@@ -6,7 +6,7 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/13 12:34:40 by lgomez-g          #+#    #+#              #
-#    Updated: 2023/04/20 14:00:03 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/20 16:07:41 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,20 +44,9 @@ SRC    = ft_strlen.c \
 		 ft_strmapi.c \
 		 ft_putendl_fd.c \
 		 ft_itoa.c \
-		
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
+		 ft_strlcat.c \
+		 ft_strrev.c \
+		 ft_intlen.c \
 		 
 		  
 OBJ = $(SRC:.c=.o)

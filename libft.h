@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 11:26:14 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/20 16:06:52 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,9 @@ void ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void ft_putendl_fd(char *s, int fd);
 char *ft_itoa(int n);
+size_t	ft_strlcat(char *dest, char *src, size_t size);
+char	*ft_strrev(char *str);
+int	ft_intlen(int n);
 
 
 
