@@ -5,14 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/13 11:50:39 by lgomez-g          #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2023/04/20 16:06:52 by lgomez-g         ###   ########.fr       */
-=======
-/*   Updated: 2023/04/20 15:59:53 by franciscogomez   ###   ########.fr       */
->>>>>>> ad0987b005fae26e27df5052da4f96a34c4bfdb5
+/*   Created: 2023/04/20 16:13:40 by franciscogomez    #+#    #+#             */
+/*   Updated: 2023/04/20 16:13:41 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #ifndef LIBFT_H
 # define LIBFT_H

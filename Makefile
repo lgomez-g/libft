@@ -5,12 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/04/13 12:34:40 by lgomez-g          #+#    #+#              #
-<<<<<<< HEAD
-#    Updated: 2023/04/20 16:07:41 by lgomez-g         ###   ########.fr        #
-=======
-#    Updated: 2023/04/20 15:41:01 by franciscogomez   ###   ########.fr        #
->>>>>>> ad0987b005fae26e27df5052da4f96a34c4bfdb5
+#    Created: 2023/04/20 16:13:25 by franciscogomez    #+#    #+#              #
+#    Updated: 2023/04/20 16:13:28 by franciscogomez   ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
