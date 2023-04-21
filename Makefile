@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+         #
+#    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 16:13:25 by franciscogomez    #+#    #+#              #
-#    Updated: 2023/04/20 16:13:28 by franciscogomez   ###   ########.fr        #
+#    Updated: 2023/04/21 13:14:41 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,6 +47,8 @@ SRC    = ft_strlen.c \
 		 ft_strlcat.c \
 		 ft_strrev.c \
 		 ft_intlen.c \
+		 ft_memmove.c \
+		 ft_substr.c \
 		 
 		  
 OBJ = $(SRC:.c=.o)

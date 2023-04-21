@@ -1,28 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/16 18:12:25 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/21 10:10:16 by lgomez-g         ###   ########.fr       */
+/*   Created: 2023/04/21 12:04:41 by lgomez-g          #+#    #+#             */
+/*   Updated: 2023/04/21 13:13:47 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dst, const void *src, size_t n)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	i;
+	char	*substr;
+	size_t	s_len;
+	size_t	substr_len;
 
-	i = 0;
-	if (dst == NULL || src == NULL)
+	if (!s)
 		return (NULL);
-	while (i < n)
-	{
-		((char *) dst)[i] = ((char *) src)[i];
-		i++;
-	}
-	return (dst);
+	s_len = ft_strlen(s);
+	if (start >= s_len)
+		return (ft_strdup(""));
+	substr_len = ft_strlen(s + start)
+	if(substr_len > len)
+		substr_len = len;
+	substr = (char *)malloc(sizeof(char) * (substr_len + 1));
+	if (!substr)
+		return (NULL);
+	ft_memcpy(substr, s + start, substr_len);
+	substr[substr_len] = '\0';
+	return (substr);
 }
