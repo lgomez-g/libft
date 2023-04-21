@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/21 12:04:41 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/21 13:13:47 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/21 15:41:54 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (start >= s_len)
 		return (ft_strdup(""));
 	substr_len = ft_strlen(s + start)
-	if(substr_len > len)
+		if (substr_len > len)
 		substr_len = len;
 	substr = (char *)malloc(sizeof(char) * (substr_len + 1));
 	if (!substr)
@@ -33,3 +33,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[substr_len] = '\0';
 	return (substr);
 }
+
+/*
+1. substr_len = ft_strlen(s + start) ? / Se usa para desplazar s a start.
+
+2. if (substr_len > len)
+		substr_len = len; ? / Se usa por que si substr_len > len hay que
+		                      recortarlo para poder que entre en la cadena.
+*/
