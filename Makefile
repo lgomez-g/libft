@@ -6,7 +6,7 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 16:13:25 by franciscogomez    #+#    #+#              #
-#    Updated: 2023/04/21 13:14:41 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/22 12:46:56 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,10 @@ SRC    = ft_strlen.c \
 		 ft_intlen.c \
 		 ft_memmove.c \
 		 ft_substr.c \
+		 ft_putnbr_fd.c \
+		 ft_strlcpy.c \
+		 
+		 
 		 
 		  
 OBJ = $(SRC:.c=.o)
