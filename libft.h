@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 16:13:40 by franciscogomez    #+#    #+#             */
-/*   Updated: 2023/04/22 12:48:42 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/22 15:35:10 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ void *ft_memmove(void *dest, const void *src, size_t n);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	ft_putnbr_fd(int n, int fd);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
 
 
 #endif
