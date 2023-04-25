@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/22 08:43:40 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/22 09:50:52 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/25 12:53:52 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,10 @@ void	ft_putnbr_fd(int n, int fd)
 /*
 Comments:
 
-ft_putchar_fd(n % 10 + '0', fd); Cada digito en ls representacion decimal de un numero
-se puede obtener mediante el operador de modulo %. 
-ej : si n es 12345, entonces n % 10 sería 5, ya que 5 es el último dígito de 12345. Y al
-sumarlo + '0' obtenemos el valor ASCII.ej: 8 + '0'(48) = (56).
-
+ft_putchar_fd(n % 10 + '0', fd); Cada digito en ls
+ representacion decimal de un numero se puede obtener mediante el
+  operador de modulo %. 
+ej : si n es 12345, entonces n % 10 sería 5, ya que 5 es el último 
+dígito de 12345. Y al sumarlo + '0' obtenemos el valor ASCII.
+ej: 8 + '0'(48) = (56).
 */

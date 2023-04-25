@@ -6,7 +6,7 @@
 /*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 14:51:33 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 15:59:34 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/25 12:56:44 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,18 +57,19 @@ char	*ft_strtrim(char const *str, char const *set)
 /*
 PASO A PASO 
 
-1. ft_chech_if_trimable = verifica si un caracter dado esta presente en un conjunto de 
-caracteres especificados en el argumento 'char c' de la funcion. 
-Si en algun momento *str = char c return(1); y sigue aumentando str++.
+1. ft_chech_if_trimable = verifica si un caracter dado esta presente en
+ un conjunto de  caracteres especificados en el argumento 'char c' de la 
+ funcion. Si en algun momento *str = char c return(1); y sigue aumentando str++.
 Despues de el while loop return (0);
 
-2. void ft_put_in_arr = se usa para copiar una cadena de origen en una cadena de destino, 
-la cadena de origen , el indice de inicio y el indice final de la subcadena.
+2. void ft_put_in_arr = se usa para copiar una cadena de origen en una cadena
+ de destino, la cadena de origen , el indice de inicio y el indice final de la 
+ subcadena.
 
-3. ft_strrim = se utiliza para recortar una cadena de caracteres especificada eliminando los 
-caracteres especificados del principio y del final de la cadena.
-La funcion toma como argumentos la cadena a recortar y el conjunto de caracteres que se debe 
-eliminar. 
+3. ft_strrim = se utiliza para recortar una cadena de caracteres especificada
+ eliminando los caracteres especificados del principio y del final de la cadena.
+La funcion toma como argumentos la cadena a recortar y el conjunto de caracteres
+ que se debe eliminar. 
 
 ejemplo:
 
