@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrev.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 16:02:36 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 16:02:40 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/25 15:11:16 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,18 +14,19 @@
 
 char	*ft_strrev(char *str)
 {
-	size_t	len;
-	size_t	i;
-	char	temp;
+	int		i;
+	int		size;
+	char	swap;
 
-	len = ft_strlen(str);
 	i = 0;
-	while (i < len / 2)
+	size = ft_strlen(str);
+	while (size > i)
 	{
-		temp = str[i];
-		str[i] = str[len - i - 1];
-		str[len - i - 1] = temp;
+		swap = str[i];
+		str[i] = str[size];
+		str[size] = swap;
 		i++;
+		size--;
 	}
 	return (str);
 }

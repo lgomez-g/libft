@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/22 14:06:05 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/22 15:34:04 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/25 13:05:23 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,13 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 /*
 1. Primero verificamos que *little no sea NULL.
 
-2. Hacemos un bucle while para iterar a traves de *big sin pasarnos del limite size_t len.
+2. Hacemos un bucle while para iterar a traves de
+ *big sin pasarnos del limite size_t len.
 
-3. Hacemos otro bucle while para comparar cada caracter de la subcadena little con el 
-correspondiente de big. ((while (big[i + j] == little[j] && i + j < len)))
+3. Hacemos otro bucle while para comparar cada caracter 
+de la subcadena little con el correspondiente de big. 
+((while (big[i + j] == little[j] && i + j < len)))
 
-4. Si se ha encontrado la subcadena dentro de big se devuelve un puntero a la posicion de 
-inicio dentro de big.
+4. Si se ha encontrado la subcadena dentro de big se 
+devuelve un puntero a la posicion de inicio dentro de big.
 */

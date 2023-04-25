@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_intlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
+/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 16:06:12 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 16:06:20 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/25 15:07:47 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,18 +16,15 @@ int	ft_intlen(int n)
 {
 	int	len;
 
-	if (n == 0)
-		return (1);
 	len = 0;
+	if (n <= 0)
+		return (1);
 	if (n < 0)
+		len++;
+	while (n)
 	{
 		len++;
-		n = -n;
-	}
-	while (n > 0)
-	{
 		n = n / 10;
-		len++;
 	}
 	return (len);
 }

@@ -6,7 +6,7 @@
 /*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/25 09:33:22 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/25 12:53:21 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/25 13:11:22 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ char	**ft_split(char const *s, char c)
 	size_t		i;
 	char		**splited;
 
-	splited = (char **)malloc(sizeof(char *) * (count_words(s, c) + 1));
+	splited = (char **)malloc(sizeof(char *) * (ft_count_words(s, c) + 1));
 	if (!splited || !s)
 		return (0);
 	i = 0;
@@ -73,7 +73,7 @@ char	**ft_split(char const *s, char c)
 				s++;
 		}
 	}
-	splited[i] = '\0';
+	splited[i] = 0;
 	return (splited);
 }
 

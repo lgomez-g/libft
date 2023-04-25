@@ -6,7 +6,7 @@
 /*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 14:51:33 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/25 12:56:44 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/25 15:01:54 by franciscogomez   ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ int	ft_chech_if_trimable(char const *str, char c)
 	{
 		if (*str == c)
 			return (1);
+		str++;
 	}
 	return (0);
 }
