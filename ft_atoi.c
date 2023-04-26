@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
+/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 14:18:17 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/20 15:54:03 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/26 11:16:16 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_atoi(const char *str)
 }
 
 /*
-1. HANDLE WHITE SPACES IN THE FIRST WHILE.
+1. HANDLE WHITE SPACES AND TABS IN THE FIRST WHILE.
 2.HANDLE THE + AND - SIGN.
 3.HANDLE THE CONVERSION.
 */

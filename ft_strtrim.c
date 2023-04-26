@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
+/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/18 14:51:33 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/25 15:01:54 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/26 18:06:58 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_chech_if_trimable(char const *str, char c)
+static int	ft_chech_if_trimable(char const *str, char c)
 {
 	while (*str)
 	{
@@ -23,7 +23,7 @@ int	ft_chech_if_trimable(char const *str, char c)
 	return (0);
 }
 
-void	ft_put_in_arr(char *arr, const char *str, int start, int end)
+static void	ft_put_in_arr(char *arr, const char *str, int start, int end)
 {
 	int	i;
 
@@ -71,6 +71,9 @@ Despues de el while loop return (0);
  eliminando los caracteres especificados del principio y del final de la cadena.
 La funcion toma como argumentos la cadena a recortar y el conjunto de caracteres
  que se debe eliminar. 
+
+ 4. newstr = malloc(sizeof(char) * (end - start + 2)); / end - start + 2 se usa
+ para calcular el tamano de la cadena y reservar espacio para el caracter nulo.
 
 ejemplo:
 

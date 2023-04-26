@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+         #
+#    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 16:13:25 by franciscogomez    #+#    #+#              #
-#    Updated: 2023/04/25 12:59:01 by franciscogomez   ###   ########.fr        #
+#    Updated: 2023/04/26 18:10:21 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,8 +45,6 @@ SRC    = ft_strlen.c \
 		 ft_putendl_fd.c \
 		 ft_itoa.c \
 		 ft_strlcat.c \
-		 ft_strrev.c \
-		 ft_intlen.c \
 		 ft_memmove.c \
 		 ft_substr.c \
 		 ft_putnbr_fd.c \

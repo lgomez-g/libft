@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
+/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 10:07:11 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/25 15:15:30 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/26 18:08:53 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrev(char *str)
+static char	*ft_strrev(char *str)
 {
 	int		i;
 	int		size;
@@ -31,7 +31,7 @@ char	*ft_strrev(char *str)
 	return (str);
 }
 
-int	ft_intlen(int n)
+static int	ft_intlen(int n)
 {
 	int	len;
 
@@ -77,7 +77,9 @@ char	*ft_itoa(int n)
 1. Se verifica si hay signo positivo o negativo y al ser negativo 
 se guarda el signo. en la variable sign.
 
-2. Hacemos malloc para guardar espacio al nuevo string.
+2. Hacemos malloc para guardar espacio al nuevo string y con ft_intlen
+medimos el tamano de el int + 1.
+
 3. Miramos con un if si el numero es igual a 0 y sino lo es hacemos
  despues un bucle while en el que hacemos nuestra operacion para convertir
 nuestro int en char (Durante la conversion de int a char se obtienen los numeros

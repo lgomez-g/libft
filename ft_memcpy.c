@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
+/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/16 18:12:25 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/25 14:29:20 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/26 17:14:38 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,10 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+/*
+  ((char *) dst)[i] = ((char *) src)[i]; / se usa para manipular
+  funciones de bajo nivel y ser muy precisos.
+  
+  Se utiliza en memcpy y memset.
+*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: franciscogomez <franciscogomez@student.42. +#+  +:+       +#+        */
+/*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/20 16:13:40 by franciscogomez    #+#    #+#             */
-/*   Updated: 2023/04/25 13:02:07 by franciscogomez   ###   ########.fr       */
+/*   Updated: 2023/04/26 18:09:55 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_putendl_fd(char *s, int fd);
 char	*ft_itoa(int n);
 size_t	ft_strlcat(char *dest, char *src, size_t size);
-char	*ft_strrev(char *str);
-int		ft_intlen(int n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 void	ft_putnbr_fd(int n, int fd);
