@@ -6,7 +6,7 @@
 /*   By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/14 14:18:17 by lgomez-g          #+#    #+#             */
-/*   Updated: 2023/04/26 11:16:16 by lgomez-g         ###   ########.fr       */
+/*   Updated: 2023/04/28 12:04:28 by lgomez-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ int	ft_atoi(const char *str)
 		str++;
 	while (*str >= '0' && *str <= '9')
 	{
-		res = res * 10 + *str - '0';
+		res = res * 10;
+		res = res + (*str - '0');
 		str++;
 	}
 	return (res * sign);
@@ -37,4 +38,4 @@ int	ft_atoi(const char *str)
 1. HANDLE WHITE SPACES AND TABS IN THE FIRST WHILE.
 2.HANDLE THE + AND - SIGN.
 3.HANDLE THE CONVERSION.
-*/
+*/ 

@@ -6,15 +6,15 @@
 #    By: lgomez-g <lgomez-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/04/20 16:13:25 by franciscogomez    #+#    #+#              #
-#    Updated: 2023/04/26 18:10:21 by lgomez-g         ###   ########.fr        #
+#    Updated: 2023/04/28 18:31:35 by lgomez-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-CC = gcc
+CC = cc
 
-CFLAGS = -Wall -Wextra -Werror -I .
+CFLAGS = -Wall -Wextra -Werror
 
 RM = rm -f
 
@@ -35,7 +35,7 @@ SRC    = ft_strlen.c \
 		 ft_strdup.c \
 		 ft_memcpy.c \
 		 ft_memcmp.c \
-		 ft_calloc.c \
+		 ft_calloc.c\
 		 ft_memset.c \
 		 ft_bzero.c \
 		 ft_strjoin.c \
@@ -59,22 +59,15 @@ SRC    = ft_strlen.c \
 		  
 OBJ = $(SRC:.c=.o)
 
-BONUS = ft_lstnew.c
-
-BONUS_OBJ = $(BONUS:.c=.o)
-
 all:	$(NAME)
-
-bonus:    $(BONUS_OBJ)
-	ar rcs $(NAME) $(BONUS_OBJ)
 
 $(NAME):    $(OBJ)
 		ar rcs $(NAME) $(OBJ)
 
 clean:
-		$(RM) $(OBJ) $(BONUS_OBJ)
+		$(RM) $(OBJ)  
 
 fclean:    clean
 		$(RM) $(NAME)
-
+		
 re:	fclean $(NAME)
